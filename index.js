@@ -27,18 +27,19 @@ const questions = [
 }
 {
     type: 'input',
-    name: 'text',
-    message: 'Text: Please choose 3 Letters:',
+    name: 'text-color',
+    message: 'What color would you like your text to be?',
+}
+{
+    type: 'list',
+    name: 'shape',
+    message: 'What shape would you like',
+    choices: ['Circle','Triangle','Square'],
 }
 {
     type: 'input',
-    name: 'text',
-    message: 'Text: Please choose 3 Letters:',
-}
-{
-    type: 'input',
-    name: 'text',
-    message: 'Text: Please choose 3 Letters:',
+    name: 'shape-color',
+    message: 'What color would you like you shape to be',
 }
 
 
