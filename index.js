@@ -1,6 +1,6 @@
 const inquirer = require ('inquirer');
 const {Circle, Triangle, Square} = require ('./lib/shapes');
-const filesystem = require('./node_modules/graceful-fs/graceful-fs');
+const fs = require('fs');
 
 class Svg{
     constructor(){
@@ -18,7 +18,7 @@ class Svg{
     }
 }
 
-// This is where the questions begin
+// Ask user questions
 const questions = [
 {
     type: 'input',
