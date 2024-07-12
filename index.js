@@ -8,7 +8,7 @@ class Svg{
         this.shapeElement = ''
     }
     render(){
-        return`<svg version='1.1' xmlns='http://www.w3.org/200/svg width='300'height='200' `
+        return`<svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">`
     }
     setTextElement(text,color){
         this.textElement = `<text x='150 y='125 font-size='70' text-anchor='min`
@@ -44,4 +44,5 @@ const questions = [
 
 
 ];
+
 
